@@ -5,8 +5,8 @@
 	"description": "DiGiCo 4rea4 module for Companion",
 	"version": "1.0.0a",
 	"license": "MIT",
-	"repository": "git+https://github.com/holdenfershee/companion-module-DiGiCo-4rea4.git",
-	"bugs": "https://github.com/holdenfershee/companion-module-DiGiCo-4rea4/issues",
+	"repository": "git+https://github.com/holdenfershee/companion-module-digico-4rea4.git",
+	"bugs": "https://github.com/holdenfershee/companion-module-digico-4rea4/issues",
 	"maintainers": [
 		{
 			"name": "Holden Fershee",
