@@ -445,15 +445,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"allenheath-4rea4-ilive@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "allenheath-4rea4-ilive@workspace:."
-  dependencies:
-    "@companion-module/base": "npm:^1.4.0"
-    "@companion-module/tools": "npm:^2.3.0"
-  languageName: unknown
-  linkType: soft
-
 "author-regex@npm:^1.0.0":
   version: 1.0.0
   resolution: "author-regex@npm:1.0.0"
@@ -541,6 +532,15 @@ __metadata:
   checksum: 10c0/74c781a5248c2402a0a3e966a0a2bba3c054aad144f5c023364be83265e796b20565aa9feff624132ff629aa64e16999fa40a743c10c12f7c61e96a794b99288
   languageName: node
   linkType: hard
+
+"companion-module-DiGiCo-4rea4@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "companion-module-DiGiCo-4rea4@workspace:."
+  dependencies:
+    "@companion-module/base": "npm:^1.4.0"
+    "@companion-module/tools": "npm:^2.3.0"
+  languageName: unknown
+  linkType: soft
 
 "cross-spawn@npm:^7.0.3":
   version: 7.0.6
