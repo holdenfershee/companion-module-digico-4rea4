@@ -55,11 +55,11 @@ The feedback portion of this module is heavily based on (Jeffery Davidsz's)[http
 
 ### 🎛️ Advanced Controls (Protocol V2.0)
 
-#### Scene Management:
+#### Snapshot Management:
 
-- **Scene Recall** - Recall a specific cue by number
-- **Scene Go Next** - Navigate to the next cue
-- **Scene Go Previous** - Navigate to the previous cue
+- **Snapshot Recall** - Recall a specific cue by number
+- **Snapshot Go Next** - Navigate to the next cue
+- **Snapshot Go Previous** - Navigate to the previous cue
 
 #### Solo Controls:
 

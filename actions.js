@@ -49,9 +49,9 @@ module.exports = {
 			this.CHOICES_INPUT_CHANNEL.push({ label: `CH ${i + 1}`, id: i })
 		}
 
-		this.CHOICES_SCENES = []
+		this.CHOICES_SNAPSHOTS = []
 		for (let i = 0; i < snapshot_count; i++) {
-			this.CHOICES_SCENES.push({ label: `SCENE ${i + 1}`, id: i })
+			this.CHOICES_SNAPSHOTS.push({ label: `SNAPSHOT ${i + 1}`, id: i })
 		}
 
 		this.CHOICES_CG = []
@@ -406,14 +406,14 @@ module.exports = {
 		}
 
 		actions['snapshot_recall'] = {
-			name: 'Scene Recall',
+			name: 'Snapshot Recall',
 			options: [
 				{
 					type: 'dropdown',
-					label: 'Scene Number',
+					label: 'Snapshot Number',
 					id: 'snapshotNumber',
 					default: '0',
-					choices: this.CHOICES_SCENES,
+					choices: this.CHOICES_SNAPSHOTS,
 					minChoicesForSearch: 0,
 				},
 			],
@@ -424,9 +424,9 @@ module.exports = {
 
 		// New Protocol V2.0 Actions
 
-		// Scene Navigation
+		// Snapshot Navigation
 		actions['snapshot_next'] = {
-			name: 'Scene Go Next',
+			name: 'Snapshot Go Next',
 			options: [],
 			callback: async (action) => {
 				this.sendAction('snapshot_next', action.options)
@@ -434,7 +434,7 @@ module.exports = {
 		}
 
 		actions['snapshot_previous'] = {
-			name: 'Scene Go Previous',
+			name: 'Snapshot Go Previous',
 			options: [],
 			callback: async (action) => {
 				this.sendAction('snapshot_previous', action.options)

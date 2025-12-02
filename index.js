@@ -181,11 +181,11 @@ class ModuleInstance extends InstanceBase {
 				break
 
 			case 'snapshot_next':
-				cmd.buffers = [Buffer.from([0xb0, 0x77, 0x7f])] // Control Change for Scene Next
+				cmd.buffers = [Buffer.from([0xb0, 0x77, 0x7f])] // Control Change for Snapshot Next
 				break
 
 			case 'snapshot_previous':
-				cmd.buffers = [Buffer.from([0xb0, 0x76, 0x7f])] // Control Change for Scene Previous
+				cmd.buffers = [Buffer.from([0xb0, 0x76, 0x7f])] // Control Change for Snapshot Previous
 				break
 
 			case 'solo_input':

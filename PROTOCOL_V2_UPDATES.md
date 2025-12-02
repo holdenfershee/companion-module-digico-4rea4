@@ -4,10 +4,10 @@
 
 The following new actions have been added while maintaining full backward compatibility with existing actions:
 
-### Scene Navigation
+### Snapshot Navigation
 
-- **Scene Go Next** - Navigate to the next snapshot
-- **Scene Go Previous** - Navigate to the previous snapshot
+- **Snapshot Go Next** - Navigate to the next snapshot
+- **Snapshot Go Previous** - Navigate to the previous snapshot
 
 ### Solo Controls
 
@@ -42,7 +42,7 @@ The following new actions have been added while maintaining full backward compat
 
 ### MIDI Message Types Used:
 
-- **Control Change** - Scene navigation, solo controls
+- **Control Change** - Snapshot navigation, solo controls
 - **NRPN (Non-Registered Parameter Number)** - EQ enable, HPF control, input to main
 - **Pitchbend** - Preamp gain control
 - **SysEx** - Preamp pad, send levels
