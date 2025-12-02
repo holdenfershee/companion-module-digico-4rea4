@@ -1,4 +1,5 @@
 const { combineRgb } = require('@companion-module/base')
+
 const {
 	offset_inputs,
 	offset_mono_groups,
@@ -25,6 +26,7 @@ const {
 	size_mono_groups,
 	size_stereo_aux,
 	size_inputs,
+	scene_count
 } = require('./constants')
 
 module.exports = {
