@@ -26,7 +26,6 @@ export const offset_fx_returns = 0x20 - 1
 export const offset_area_outs = 0x30 - 1
 export const offset_cg = 0x36 - 1
 export const offset_mute_groups = 0x40 - 1
-
 export const channel_count = 128
 export const control_group_count = 48
 export const scene_count = 800
