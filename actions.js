@@ -1,6 +1,6 @@
 const { combineRgb } = require('@companion-module/base')
 
-import {
+const {
 	size_inputs,
 	size_mono_groups,
 	size_stereo_groups,
@@ -30,7 +30,7 @@ import {
 	channel_count,
 	control_group_count,
 	scene_count,
-} from './constants'
+} = require('./constants')
 
 module.exports = {
 	/**

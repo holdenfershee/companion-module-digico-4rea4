@@ -1,7 +1,7 @@
 /**
  *
  * Companion instance class for the DiGiCo 4rea4 line of consoles.
- * @version 1.0.3+alpha-2
+ * @version 1.0.3+alpha-3
  *
  */
 
@@ -9,7 +9,6 @@ const { InstanceBase, Regex, runEntrypoint, TCPHelper } = require('@companion-mo
 const actions = require('./actions')
 const upgradeScripts = require('./upgrade')
 const {
-	control_group_count,
 	size_inputs,
 	size_mono_groups,
 	size_stereo_groups,
@@ -20,11 +19,15 @@ const {
 	size_mono_fx_sends,
 	size_stereo_fx_sends,
 	size_fx_returns,
+	size_area_outs,
 	size_cg,
 	size_mute_groups,
+	offset_inputs,
+	offset_mono_groups,
 	offset_stereo_groups,
+	offset_mono_aux,
 	offset_stereo_aux,
-	size_area_outs,
+	offset_mono_matrix,
 	offset_stereo_matrix,
 	offset_mono_fx_sends,
 	offset_stereo_fx_sends,
@@ -32,6 +35,9 @@ const {
 	offset_area_outs,
 	offset_cg,
 	offset_mute_groups,
+	channel_count,
+	control_group_count,
+	scene_count,
 } = require('./constants')
 const TIME_BETW_MULTIPLE_REQ_MS = 150
 

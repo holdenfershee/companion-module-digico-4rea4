@@ -1,18 +1,35 @@
-import { combineRgb } from '@companion-module/base'
-import {
+const { combineRgb } = require('@companion-module/base')
+const {
+	size_inputs,
+	size_mono_groups,
+	size_stereo_groups,
+	size_mono_aux,
+	size_stereo_aux,
+	size_mono_matrix,
+	size_stereo_matrix,
+	size_mono_fx_sends,
+	size_stereo_fx_sends,
+	size_fx_returns,
+	size_area_outs,
+	size_cg,
+	size_mute_groups,
+	offset_inputs,
+	offset_mono_groups,
+	offset_stereo_groups,
+	offset_mono_aux,
+	offset_stereo_aux,
+	offset_mono_matrix,
+	offset_stereo_matrix,
+	offset_mono_fx_sends,
+	offset_stereo_fx_sends,
+	offset_fx_returns,
 	offset_area_outs,
 	offset_cg,
-	offset_fx_returns,
-	offset_inputs,
-	offset_mono_aux,
-	offset_mono_fx_sends,
-	offset_mono_groups,
-	offset_mono_matrix,
 	offset_mute_groups,
-	offset_stereo_aux,
-	offset_stereo_fx_sends,
-	offset_stereo_matrix,
-} from './constants'
+	channel_count,
+	control_group_count,
+	scene_count,
+} = require('./constants')
 
 export function getFeedbacks() {
 	const feedbacks = {}
